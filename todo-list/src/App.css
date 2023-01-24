@@ -37,7 +37,7 @@
   font-size: 20px;
   color: #ccc;
   background-color: #000000;
-  border: 1px solid #c89666;
+  border: 1px solid #3D9970;
   border-radius: 10px;
 }
 
@@ -47,14 +47,25 @@
   font-size: 20px;
   border-radius: 10px;
   border: 0;
-  background-color: #f1af71;
+  background-color: #F0E68C;
   cursor: pointer;
+}
+
+.button-add:hover {
+  background-color: aquamarine;
+  transition: 0.4s;
+  box-shadow: 1px 1px 0px black,
+              2px 2px 0px black,
+              2px 2px 0px black,
+              3px 3px 0px black,
+              3px 3px 0px black,
+              3px 3px 0px black;
 }
 
 .list-item {
   display: flex;
   margin: 20px 0;
-  border: 1px solid #ccc;
+  border: 1px solid #4fadff;
   border-radius: 10px;
   padding: 10px;
   max-height: 30px;  
